@@ -1,0 +1,17 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Image processing
+Pillow>=10.3.0
+
+# YOLOv8 and ML
+ultralytics
+torch
+torchvision
+
+# Utilities
+gdown
+numpy
+opencv-python
