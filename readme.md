@@ -81,20 +81,20 @@ Detection results with bounding boxes, plastic type badges, confidence meters, a
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                         Frontend (Next.js)                  │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │   Camera     │→ │Image Preview │→ │   Results    │      │
-│  │   Capture    │  │  + Crop      │  │   Display    │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
+│  │   Camera     │→ │Image Preview │→ │   Results    │       │
+│  │   Capture    │  │  + Crop      │  │   Display    │       │
+│  └──────────────┘  └──────────────┘  └──────────────┘       │
 │         │                  │                                │
 │         └──────────────────┴─── HTTP POST (image) ──────────┤
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
 │                      Backend (FastAPI)                      │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │   /predict   │→ │   YOLOv8     │→ │   JSON       │      │
-│  │   endpoint   │  │   Model      │  │   Response   │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
+│  │   /predict   │→ │   YOLOv8     │→ │   JSON       │       │
+│  │   endpoint   │  │   Model      │  │   Response   │       │
+│  └──────────────┘  └──────────────┘  └──────────────┘       │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -104,12 +104,12 @@ Detection results with bounding boxes, plastic type badges, confidence meters, a
 
 ### Required Software
 
-| Software | Minimum Version | Purpose |
-|----------|----------------|---------|
-| Python | 3.9+ | Backend runtime |
-| Node.js | 18+ | Frontend runtime |
-| npm | 9+ | Package manager |
-| Git | 2.0+ | Version control |
+| Software | Minimum Version | Purpose         |
+|----------|-----------------|-----------------|
+| Python   | 3.9+            | Backend runtime |
+| Node.js  | 18+             | Frontend runtime|
+| npm      | 9+              | Package manager |
+| Git      | 2.0+            | Version control |
 
 ### Hardware Requirements
 
@@ -427,14 +427,14 @@ Detect plastic in uploaded image.
 
 ### Plastic Type Classes
 
-| Class ID | Code | Full Name | Recyclable |
-|----------|------|-----------|------------|
-| 0 | HDPE | High-Density Polyethylene | ✅ Yes |
-| 1 | LDPE | Low-Density Polyethylene | ✅ Yes |
-| 2 | PETE | Polyethylene Terephthalate | ✅ Yes |
-| 3 | PP | Polypropylene | ✅ Yes |
-| 4 | PS | Polystyrene | ❌ No |
-| 5 | PVC | Polyvinyl Chloride | ❌ No |
+| Class ID | Code | Full Name                 | Recyclable |
+|----------|------|---------------------------|------------|
+| 0        | HDPE | High-Density Polyethylene | ✅ Yes     |
+| 1        | LDPE | Low-Density Polyethylene  | ✅ Yes     |
+| 2        | PETE | Polyethylene Terephthalate| ✅ Yes     |
+| 3        | PP   | Polypropylene             | ✅ Yes     |
+| 4        | PS   | Polystyrene               | ❌ No      |
+| 5        | PVC  | Polyvinyl Chloride        | ❌ No      |
 
 ---
 
@@ -762,7 +762,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Yashas R** - *Initial work* - [YourGitHub](https://github.com/YashasRgowda)
 
 ---
 
@@ -780,8 +780,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For issues and questions:
 - 🐛 [Open an issue](https://github.com/yourusername/plastic-detection/issues)
-- 📧 Email: your.email@example.com
-- 💬 Discord: [Join our server](https://discord.gg/yourserver)
+- 📧 Email: yashas.r2002@gmail.com
 
 ---
 
